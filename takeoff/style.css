@@ -1,0 +1,94 @@
+/*!
+Theme Name: takeoff
+Theme URI: https://tessak22.com
+Author: Tessa Kriesel
+Author URI: https://tessak22.com
+Description: Theme based on Underscores with Bootstrap 3 and ACF add-ons.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: takeoff
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+takeoff is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* This file consists of all of your theme CSS, the top sections here are for WordPress specific things that Underscores includes 
+(they include a lot more but I deleted it because Bootstrap covers it). There is then some CSS that I added to accent the theme and
+make it look nice. After that, you can add your own custom CSS. */
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {display: inline; float: left; margin-right: 1.5em;}
+.alignright {display: inline; float: right; margin-left: 1.5em;}
+.aligncenter {clear: both; display: block; margin-left: auto; margin-right: auto;}
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {margin-bottom: 1.5em; max-width: 100%;}
+.wp-caption img[class*="wp-image-"] {display: block; margin-left: auto; margin-right: auto;}
+.wp-caption .wp-caption-text {margin: 0.8075em 0;}
+.wp-caption-text {text-align: center;}
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {margin-bottom: 1.5em;}
+.gallery-item {display: inline-block; text-align: center; vertical-align: top; width: 100%;}
+.gallery-columns-2 .gallery-item {max-width: 50%;}
+.gallery-columns-3 .gallery-item {max-width: 33.33%;}
+.gallery-columns-4 .gallery-item {max-width: 25%;}
+.gallery-columns-5 .gallery-item {max-width: 20%;}
+.gallery-columns-6 .gallery-item {max-width: 16.66%;}
+.gallery-columns-7 .gallery-item {max-width: 14.28%;}
+.gallery-columns-8 .gallery-item {max-width: 12.5%;}
+.gallery-columns-9 .gallery-item {max-width: 11.11%;}
+.gallery-caption {display: block;}
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-list, .comment-list .children {list-style-type: none;}
+.comment-list .children .comment-body {background: #f7f8f9; padding: 25px; margin-bottom: 30px;}
+.comment-body {padding: 15px 0;}
+.comment-author-avatar {float: left; width: 70px;}
+.comment-content {margin-left: 100px;}
+.comment-respond label {display: block;}
+.comment .depth-2 {padding-left: 15px;}
+.comment .depth-3 {padding-left: 30px;}
+.comment .depth-4 {padding-left: 45px;}
+
+/*--------------------------------------------------------------
+## Page Builder Styles
+--------------------------------------------------------------*/
+/* Reusable Page Builder Styles*/
+.flex {display: flex;}
+@media only screen and (max-width: 767px) {.flex {display: block;}}
+.cover-image {background-repeat: no-repeat; background-size: cover;	background-attachment: fixed;}
+.tablet-only {display: none;}
+@media only screen and (max-width: 767px) {.tablet-only {display: block;}}
+
+/* Hero with CTA */
+.hero_with_cta {padding: 200px 0; color: #fff;}
+
+/* Image with Content */
+.image_with_content .content {padding: 75px 8.33333333% 75px 0;}
+.image_with_content .image {background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+/* Centered Paragraph with Title */
+.centered_paragraph_with_title {padding: 50px 0;}
+
+/*--------------------------------------------------------------
+## Takeoff Added Styles
+--------------------------------------------------------------*/
+
+/*-------------- Global Styles --------------*/
+body {padding-top: 70px;}
+
+
+
